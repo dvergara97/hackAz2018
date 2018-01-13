@@ -32,6 +32,8 @@
         <activity android:name=".DayView"></activity>
 
         <activity android:name=".InputEventNameAndDescription"></activity>
+
+        <activity android:name=".TimePicker"></activity>
     </application>
 
 </manifest>
