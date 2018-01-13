@@ -6,7 +6,7 @@
     density="xxxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1515836755421"
+    timestamp="1515839582077"
     token="1683910337980302970"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -22,10 +22,6 @@
     <task
         name="verifier"
         duration="0" />
-
-    <artifact
-        location="C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -71,7 +67,16 @@
     <build
         build-mode="COLD"
         ir-eligibility="CLASS_ADDED"
-        timestamp="1515835769898"
+        timestamp="1515837791014"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1515838558109"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -85,14 +90,11 @@
         <artifact
             location="C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1515836707655"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1515839223439"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -100,11 +102,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1515836755421"
+        timestamp="1515839562382"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1515839582077"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
