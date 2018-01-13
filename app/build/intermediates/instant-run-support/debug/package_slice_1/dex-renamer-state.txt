@@ -1,4 +1,4 @@
-#Fri Jan 12 23:37:54 MST 2018
-base.0=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Sat Jan 13 02:55:11 GMT-07:00 2018
+base.0=D\:\\hackathon\\hackAz2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
 path.0=classes.dex
 renamed.0=classes.dex

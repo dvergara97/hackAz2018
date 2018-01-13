@@ -1,5 +1,12 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Sat Jan 13 03:53:21 MST 2018
+=======
+<<<<<<< HEAD
+#Sat Jan 13 02:56:29 GMT-07:00 2018
+=======
+#Sat Jan 13 03:32:44 MST 2018
+>>>>>>> 96d8e4e6fbd213d57bebb873539caaca179870d4
 2.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 5.set=DEX
 0.path=classes.dex
@@ -20,8 +27,9 @@ count=6
 1.baseType=DIRECTORY
 5.path=classes.dex
 0.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+>>>>>>> bc9059390104f67faed7d4941ffdd671053670a6
 0.baseType=DIRECTORY
-3.set=DEX
-1.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-4.baseType=DIRECTORY
+0.base=D\:\\hackathon\\hackAz2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\43
+0.path=classes.dex
 0.set=DEX
+count=1
