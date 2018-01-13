@@ -44,6 +44,7 @@
         <activity android:name="com.example.aagua.hackaz2018.AdminActivity" />
         <activity android:name="com.example.aagua.hackaz2018.DayView" />
         <activity android:name="com.example.aagua.hackaz2018.InputEventNameAndDescription" />
+        <activity android:name="com.example.aagua.hackaz2018.TimePicker" />
 
         <meta-data
             android:name="android.support.VERSION"

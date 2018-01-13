@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\a3db193dfada2d26713be33114d766a3\AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd89c1c97c83eb3348096ab15b0f08b2\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\8d76489aaa207103b3217c6aa06d6272\AndroidManifest.xml:17:1-31:12
@@ -27,25 +27,25 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\roxas\.gr
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0c2e8a3f36085f6f4d6efdcb4467334e\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cf5baab23d3f0b69d1f850a994bb00b2\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0a61ff076515291586f10c637da1a417\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml
 		INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml
-		ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml
-		ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:5:5-35:19
+ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:5:5-37:19
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\a3db193dfada2d26713be33114d766a3\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\a3db193dfada2d26713be33114d766a3\AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:design:26.1.0] C:\Users\roxas\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd89c1c97c83eb3348096ab15b0f08b2\AndroidManifest.xml:25:5-29:19
@@ -138,6 +138,10 @@ activity#com.example.aagua.hackaz2018.InputEventNameAndDescription
 ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:34:9-75
 	android:name
 		ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:34:19-63
+activity#com.example.aagua.hackaz2018.TimePicker
+ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:36:9-57
+	android:name
+		ADDED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml:36:19-45
 uses-sdk
 INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\hackathon\hackAz2018\app\src\main\AndroidManifest.xml
