@@ -41,7 +41,9 @@
         <activity android:name="com.example.aagua.hackaz2018.SignUpActivity" />
         <activity android:name="com.example.aagua.hackaz2018.CalendarActivity" >
         </activity>
+        <activity android:name="com.example.aagua.hackaz2018.AdminActivity" />
         <activity android:name="com.example.aagua.hackaz2018.DayView" />
+        <activity android:name="com.example.aagua.hackaz2018.InputEventNameAndDescription" />
 
         <meta-data
             android:name="android.support.VERSION"

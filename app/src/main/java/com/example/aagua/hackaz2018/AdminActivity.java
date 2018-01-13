@@ -13,17 +13,23 @@ import android.widget.Button;
 public class AdminActivity extends AppCompatActivity implements View.OnClickListener {
     private Button eventButton;
 
-    public void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin);
 
         eventButton=findViewById(R.id.eventButton);
-        eventButton.setOnClickListener(this);
+        eventButton.setOnClickListener(AdminActivity.this);
     }
 
+<<<<<<< HEAD
 
     public void onClick(View view){
         Intent eventIntent=new Intent(this, inputEventNameAndDescription.class);
+=======
+    @Override
+    public void onClick(View view){
+        Intent eventIntent=new Intent(AdminActivity.this, InputEventNameAndDescription.class);
+>>>>>>> 4be241325ccbc12f1e5e3a2d84f6bc9d8e8c7667
         startActivity(eventIntent);
     }
 }
