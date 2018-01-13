@@ -22,7 +22,7 @@ public class AdminActivity extends AppCompatActivity implements View.OnClickList
     }
 
 
-    public void OnClick(View view){
+    public void onClick(View view){
         Intent eventIntent=new Intent(this, inputEventNameAndDescription.class);
         startActivity(eventIntent);
     }
