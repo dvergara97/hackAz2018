@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">HackAZ2018</string>
+    <string name="app_name"> AppNameGoesHere</string>
+    <string name="parentUser">Parent</string>
+    <string name="normalUser">Child</string>
 </resources>
