@@ -24,6 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.aagua.hackaz2018.CalendarActivity" >
+        </activity>
+        <activity android:name="com.example.aagua.hackaz2018.DayView" />
 
         <meta-data
             android:name="android.support.VERSION"
