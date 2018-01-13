@@ -1,4 +1,0 @@
-#Sat Jan 13 02:55:11 GMT-07:00 2018
-base.0=D\:\\hackathon\\hackAz2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\35
-path.0=classes.dex
-renamed.0=classes.dex

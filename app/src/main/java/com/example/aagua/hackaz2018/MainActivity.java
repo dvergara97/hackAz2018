@@ -1,6 +1,5 @@
 package com.example.aagua.hackaz2018;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,8 +9,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 public class MainActivity extends Activity implements View.OnClickListener{
-    private Button childButton;
-    private Button parentButton;
+    private Button loginButton;
+    private Button signUpButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,20 +21,20 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         setContentView(R.layout.activity_main);
 
-        childButton = findViewById(R.id.child);
-        childButton.setOnClickListener(this);
-        parentButton = findViewById(R.id.parent);
-        parentButton.setOnClickListener(MainActivity.this);
+        loginButton = findViewById(R.id.login);
+        loginButton.setOnClickListener(this);
+        signUpButton = findViewById(R.id.signup);
+        signUpButton.setOnClickListener(MainActivity.this);
 
     }
 
     public void onClick(View view){
         switch (view.getId()){
-            case R.id.child:
-                switchToChildLogin();
+            case R.id.login:
+                switchToLogin();
                 break;
-            case R.id.parent:
-                switchToAdultLogin();
+            case R.id.signup:
+                switchToSignUp();
                 break;
             default:
                 break;
@@ -43,13 +42,13 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     }
 
-    public void switchToChildLogin(){
-        Intent childRegister=new Intent(MainActivity.this, ChildLogIn.class);
-        startActivity(childRegister);
+    public void switchToLogin(){
+        Intent loginIntent=new Intent(MainActivity.this, Login.class);
+        startActivity(loginIntent);
     }
 
-    public void switchToAdultLogin(){
-        Intent parentRegister=new Intent(this, ChildLogIn.class);
-        startActivity(parentRegister);
+    public void switchToSignUp(){
+        Intent signupIntent=new Intent(this, Login.class);
+        startActivity(signupIntent);
     }
 }

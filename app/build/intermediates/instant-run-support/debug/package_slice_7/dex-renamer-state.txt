@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-#Sat Jan 13 02:55:15 GMT-07:00 2018
-base.0=D\:\\hackathon\\hackAz2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\32
-=======
-#Sat Jan 13 03:16:05 MST 2018
-base.0=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
->>>>>>> bc9059390104f67faed7d4941ffdd671053670a6
-path.0=classes.dex
-renamed.0=classes.dex

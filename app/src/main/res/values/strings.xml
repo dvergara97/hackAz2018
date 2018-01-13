@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name"> Wrap-Up</string>
-    <string name="parentUser">Parent</string>
-    <string name="normalUser">Child</string>
+    <string name="User">Log In</string>
+    <string name="signUp">Sign Up</string>
     <string name="nextButton">Next...</string>
+    <string name="emailHint">Email</string>
+    <string name="phoneHint">Phone Number</string>
 </resources>

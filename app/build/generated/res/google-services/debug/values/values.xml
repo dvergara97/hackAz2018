@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">128786158508-534ljfr6mn56g4pghko4fi6ts4n99h5u.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://hackaz2018-88f62.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">128786158508</string>
+    <string name="google_api_key" translatable="false">AIzaSyAhlu6bS5TPfrnXWa5ljWdno7guIEV5Ros</string>
+    <string name="google_app_id" translatable="false">1:128786158508:android:a0ededfe2720643f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAhlu6bS5TPfrnXWa5ljWdno7guIEV5Ros</string>
+    <string name="google_storage_bucket" translatable="false">hackaz2018-88f62.appspot.com</string>
+    <string name="project_id" translatable="false">hackaz2018-88f62</string>
+</resources>

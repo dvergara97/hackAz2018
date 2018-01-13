@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "128786158508",
+    "firebase_url": "https://hackaz2018-88f62.firebaseio.com",
+    "project_id": "hackaz2018-88f62",
+    "storage_bucket": "hackaz2018-88f62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128786158508:android:a0ededfe2720643f",
+        "android_client_info": {
+          "package_name": "com.example.aagua.hackaz2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128786158508-hkuhhum2rmao5tanpjb4ggjb6b713a9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aagua.hackaz2018",
+            "certificate_hash": "f3d70a3386ba5b8e2205f0a4aaf168a4596fad72"
+          }
+        },
+        {
+          "client_id": "128786158508-534ljfr6mn56g4pghko4fi6ts4n99h5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhlu6bS5TPfrnXWa5ljWdno7guIEV5Ros"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128786158508-534ljfr6mn56g4pghko4fi6ts4n99h5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,35 +1,7 @@
 #Internal package file, do not edit.
-<<<<<<< HEAD
-#Sat Jan 13 03:53:21 MST 2018
-=======
-<<<<<<< HEAD
-#Sat Jan 13 02:56:29 GMT-07:00 2018
-=======
-#Sat Jan 13 03:32:44 MST 2018
->>>>>>> 96d8e4e6fbd213d57bebb873539caaca179870d4
-2.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-5.set=DEX
-0.path=classes.dex
-2.baseType=DIRECTORY
-3.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
-2.set=DEX
-1.path=classes.dex
-4.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
-count=6
-5.baseType=DIRECTORY
-2.path=classes.dex
-5.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-4.set=DEX
-3.path=classes.dex
-3.baseType=DIRECTORY
-1.set=DEX
-4.path=classes.dex
-1.baseType=DIRECTORY
-5.path=classes.dex
-0.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
->>>>>>> bc9059390104f67faed7d4941ffdd671053670a6
+#Sat Jan 13 07:49:04 MST 2018
 0.baseType=DIRECTORY
-0.base=D\:\\hackathon\\hackAz2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\43
+0.base=C\:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
 0.set=DEX
 count=1

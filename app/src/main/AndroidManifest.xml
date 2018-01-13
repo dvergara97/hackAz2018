@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ChildLogIn">
+        <activity android:name=".Login">
 
         </activity>
 
