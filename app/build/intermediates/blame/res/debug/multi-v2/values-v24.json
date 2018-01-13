@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\hackathon\\hackAz2018\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\aagua\\Documents\\CS\\PersonalProjects\\HackAZ2018\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\roxas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8d76489aaa207103b3217c6aa06d6272\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\aagua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\7d26eaa8abdb3b951ae30c825859fe05\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\roxas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\87bc32b3856eefd01c1dc56c67699942\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\aagua\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\04378af3b2c00575542990f347eb933e\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

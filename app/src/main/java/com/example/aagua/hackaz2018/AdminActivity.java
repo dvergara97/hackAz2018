@@ -21,15 +21,11 @@ public class AdminActivity extends AppCompatActivity implements View.OnClickList
         eventButton.setOnClickListener(AdminActivity.this);
     }
 
-<<<<<<< HEAD
 
     public void onClick(View view){
-        Intent eventIntent=new Intent(this, inputEventNameAndDescription.class);
-=======
-    @Override
-    public void onClick(View view){
-        Intent eventIntent=new Intent(AdminActivity.this, InputEventNameAndDescription.class);
->>>>>>> 4be241325ccbc12f1e5e3a2d84f6bc9d8e8c7667
+        Intent eventIntent=new Intent(AdminActivity.this,
+                                      InputEventNameAndDescription.class);
+
         startActivity(eventIntent);
     }
 }
