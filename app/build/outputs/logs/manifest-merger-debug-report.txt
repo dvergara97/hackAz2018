@@ -99,7 +99,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\aagua\.gradle\caches
 	android:allowBackup
 		ADDED from C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\src\main\AndroidManifest.xml:11:9-65
 activity#com.example.aagua.hackaz2018.MainActivity
 ADDED from C:\Users\aagua\Documents\CS\PersonalProjects\HackAZ2018\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name

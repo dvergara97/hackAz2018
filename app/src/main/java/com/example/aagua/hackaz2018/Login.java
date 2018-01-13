@@ -4,27 +4,63 @@ package com.example.aagua.hackaz2018;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.support.v7.widget.Toolbar;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 /**
  * Created by aagua on 1/13/2018.
  */
 
-public class Login extends Activity implements View.OnClickListener {
+public class Login extends AppCompatActivity implements View.OnClickListener {
     private Button nextPageButton;
+    private Toolbar myToolbar;
+    private EditText emailText;
+
+    private DatabaseReference DBReference;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+
+        // getReference allows us access to the root node
+        DBReference=FirebaseDatabase.getInstance().getReference();
+
+        myToolbar = findViewById(R.id.login_toolbar);
+        setSupportActionBar(myToolbar);
+
         nextPageButton=findViewById(R.id.next);
         nextPageButton.setOnClickListener(this);
+
+        emailText=findViewById(R.id.emailText);
+
     }
 
     public void onClick(View view){
-        Intent calendarIntent=new Intent(this, CalendarActivity.class);
-        startActivity(calendarIntent);
+        String email=emailText.getText().toString().trim();
+        String emailPattern="[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+
+        if (email.matches(emailPattern)) {
+            User me=new User("A","A", "5208919545", email,
+                             "HOLA",true);
+
+            DBReference.child("users").child("child").setValue(me);
+
+            Intent calendarIntent=new Intent(this, CalendarActivity.class);
+            startActivity(calendarIntent);
+        }
+        else {
+            Toast.makeText(getApplicationContext(),"Invalid email address", Toast.LENGTH_SHORT).show();
+        }
+
     }
 }

@@ -10,8 +10,8 @@ public final class R {
     public static final class id {
         public static final int auto = 0x7f08001f;
         public static final int center = 0x7f080027;
-        public static final int none = 0x7f080068;
-        public static final int normal = 0x7f080069;
+        public static final int none = 0x7f080067;
+        public static final int normal = 0x7f080068;
         public static final int radio = 0x7f080075;
         public static final int text = 0x7f0800a2;
         public static final int text2 = 0x7f0800a3;
