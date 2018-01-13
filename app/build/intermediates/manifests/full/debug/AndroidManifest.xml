@@ -38,6 +38,7 @@
         </activity>
         <activity android:name="com.example.aagua.hackaz2018.Login" >
         </activity>
+        <activity android:name="com.example.aagua.hackaz2018.SignUpActivity" />
         <activity android:name="com.example.aagua.hackaz2018.CalendarActivity" >
         </activity>
         <activity android:name="com.example.aagua.hackaz2018.DayView" />

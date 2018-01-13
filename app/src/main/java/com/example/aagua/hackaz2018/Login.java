@@ -3,6 +3,7 @@ package com.example.aagua.hackaz2018;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -30,12 +31,11 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-
-
         // getReference allows us access to the root node
         DBReference=FirebaseDatabase.getInstance().getReference();
 
         myToolbar = findViewById(R.id.login_toolbar);
+        myToolbar.setTitle("Log In");
         setSupportActionBar(myToolbar);
 
         nextPageButton=findViewById(R.id.next);

@@ -48,7 +48,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
 
     public void switchToSignUp(){
-        Intent signupIntent=new Intent(this, Login.class);
+        Intent signupIntent=new Intent(this, SignUpActivity.class);
         startActivity(signupIntent);
     }
 }
