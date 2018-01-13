@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"> AppNameGoesHere</string>
+    <string name="app_name"> Wrap-Up</string>
     <string name="parentUser">Parent</string>
     <string name="normalUser">Child</string>
     <string name="nextButton">Next...</string>
