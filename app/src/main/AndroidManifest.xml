@@ -17,9 +17,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ChildLogIn">
+
+        </activity>
+
         <activity android:name=".CalendarActivity">
 
         </activity>
+
         <activity android:name=".DayView"></activity>
     </application>
 
