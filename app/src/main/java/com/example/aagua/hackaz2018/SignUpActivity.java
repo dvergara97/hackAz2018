@@ -11,6 +11,8 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -23,6 +25,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     Button signButton;
     EditText firstText, lastText, phoneText, emailText, pswdText,conPswdText;
     CheckBox isParent;
+    private FirebaseAuth mAuth = FirebaseAuth.getInstance();
 
     private DatabaseReference DBReference;
 
@@ -64,7 +67,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                     password,isAdmin);
 
             DBReference.child("users").child(firstName+" "+lastName).setValue(person);
-
+            mAuth.createUserWithEmailAndPassword(email, password);
             goToNextScreen(person);
         }
         else {

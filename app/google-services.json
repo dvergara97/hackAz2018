@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "128786158508-lu27veeio9ru8b9kiupdovp8b65tncr9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aagua.hackaz2018",
+            "certificate_hash": "4b37d1f0bb0691f378d6877387ebe3677f9ad195"
+          }
+        },
+        {
           "client_id": "128786158508-hkuhhum2rmao5tanpjb4ggjb6b713a9p.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
