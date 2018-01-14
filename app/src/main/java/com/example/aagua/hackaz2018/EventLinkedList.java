@@ -13,11 +13,11 @@ public class EventLinkedList {
         head = null;
     }
 
-//////////////////////////////////////
+
     public EventNode tempdontkeep() {
         return head;
     }
-/////////////////////////////////////
+
 
 
     public void push(String eventName, String eventDescription, String cycle, int hour, int minute) {
