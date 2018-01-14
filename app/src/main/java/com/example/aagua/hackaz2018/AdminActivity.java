@@ -28,4 +28,8 @@ public class AdminActivity extends AppCompatActivity implements View.OnClickList
 
         startActivity(eventIntent);
     }
+
+    @Override
+    public void onBackPressed() {
+    }
 }
