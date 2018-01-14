@@ -50,10 +50,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         String emailPattern="[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
         if (email.matches(emailPattern)) {
-            User me=new User("A","A", "5208919545", email,
-                             "HOLA",true);
 
-            DBReference.child("users").child("child").setValue(me);
 
             Intent calendarIntent=new Intent(this, CalendarActivity.class);
             startActivity(calendarIntent);
