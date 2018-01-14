@@ -53,7 +53,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener  {
         String emailPattern="[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
         if (email.matches(emailPattern)) {
-<<<<<<< HEAD
 
 =======
             /*
@@ -74,7 +73,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener  {
             } ;
             mAuth.addAuthStateListener(mAuthListener);
             mAuth.signInWithEmailAndPassword(email,"123456");
->>>>>>> f5aa68419b0ed3e5542f196cb9ba796295d44651
 
         }
         else {
