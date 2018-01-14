@@ -12,6 +12,8 @@ import android.support.v7.widget.Toolbar;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -19,12 +21,13 @@ import com.google.firebase.database.FirebaseDatabase;
  * Created by aagua on 1/13/2018.
  */
 
-public class Login extends AppCompatActivity implements View.OnClickListener {
+public class Login extends AppCompatActivity implements View.OnClickListener  {
     private Button nextPageButton;
     private Toolbar myToolbar;
     private EditText emailText;
-
     private DatabaseReference DBReference;
+    private FirebaseAuth.AuthStateListener mAuthListener;
+    private FirebaseAuth mAuth = FirebaseAuth.getInstance();
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -50,13 +53,25 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         String emailPattern="[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
         if (email.matches(emailPattern)) {
+            /*
             User me=new User("A","A", "5208919545", email,
                              "HOLA",true);
 
             DBReference.child("users").child("child").setValue(me);
+            */
 
-            Intent calendarIntent=new Intent(this, CalendarActivity.class);
-            startActivity(calendarIntent);
+            mAuthListener = new FirebaseAuth.AuthStateListener() {
+
+                @Override
+                public void onAuthStateChanged(FirebaseAuth mAuth) {
+                    System.out.println("daniel");
+                    Intent calendarIntent = new Intent(Login.this, CalendarActivity.class);
+                    startActivity(calendarIntent);
+                }
+            } ;
+            mAuth.addAuthStateListener(mAuthListener);
+            mAuth.signInWithEmailAndPassword(email,"123456");
+
         }
         else {
             Toast.makeText(getApplicationContext(),"Invalid email address", Toast.LENGTH_SHORT).show();
