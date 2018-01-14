@@ -2,6 +2,7 @@ package com.example.aagua.hackaz2018;
 
 /**
  * Created by roxas on 1/13/2018.
+ * modified by ejara 1/13/2018
  */
 
 public class EventNode {
@@ -12,6 +13,7 @@ public class EventNode {
     private int hour;
     private int minute;
     private EventNode next;
+    private int totalmin;
 
     public EventNode(String inEventName, String inEventDescription,
                      String inCycle, int inHour, int inMinute) {
@@ -19,9 +21,14 @@ public class EventNode {
         eventName = inEventName;
         eventDescription = inEventDescription;
         cycle = inCycle; //AM or PM
+        //REMEMBER TO ACCOUNT FOR 12 pm
+        if(inCycle == "pm") {
+           totalmin += 720; //pm
+        }
         hour = inHour;
+        totalmin += (hour * 60);
         minute = inMinute;
-
+        totalmin += minute;
     }
 
     public String getEventName() {
@@ -70,5 +77,14 @@ public class EventNode {
 
     public void setNext(EventNode newNext) {
         next = newNext;
+    }
+
+    public int getTotalMin() {
+        return totalmin;
+    }
+
+    public void output() {
+        System.out.println("Event Name: " + eventName + " Description: " + eventDescription +
+        " Am/Pm: " + cycle + " Time: " + hour + ":" + minute);
     }
 }
