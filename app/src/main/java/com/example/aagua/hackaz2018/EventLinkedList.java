@@ -2,6 +2,7 @@ package com.example.aagua.hackaz2018;
 
 /**
  * Created by roxas on 1/13/2018.
+ * modified by ejara 1/13/2018
  */
 
 public class EventLinkedList {
@@ -12,15 +13,40 @@ public class EventLinkedList {
         head = null;
     }
 
-    public void push(String eventName, String eventDescription,
-                     String cycle, int hour, int minute) {
+//////////////////////////////////////
+    public EventNode tempdontkeep() {
+        return head;
+    }
+/////////////////////////////////////
+
+
+    public void push(String eventName, String eventDescription, String cycle, int hour, int minute) {
+        EventNode current = new EventNode(eventName, eventDescription, cycle, hour, minute);
+        EventNode temp = head;
+        EventNode holder;
         if (head == null) {
-            head = new EventNode(eventName, eventDescription, cycle, hour, minute);
-        }
-        else {
-            //Have to sort
-
-
+            head = current;
+        } else {
+            while(temp != null) {
+                if(temp.getTotalMin() == current.getTotalMin()) {
+                    holder = temp;
+                    temp = current;
+                    temp.setNext(holder);
+                    break;
+                } else if(temp.getTotalMin() < current.getTotalMin()) {
+                    if(temp.getNext() == null) {
+                        temp.setNext(current);
+                        break;
+                    } else {
+                        temp = temp.getNext();
+                    }
+                } else if(temp.getTotalMin() > current.getTotalMin()) {
+                    holder = head;
+                    head = current;
+                    head.setNext(holder);
+                    break;
+                }
+            }
         }
     }
 
