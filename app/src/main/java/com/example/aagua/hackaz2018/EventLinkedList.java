@@ -13,39 +13,40 @@ public class EventLinkedList {
         head = null;
     }
 
-
+//////////////////////////////////////
     public EventNode tempdontkeep() {
         return head;
     }
-
+/////////////////////////////////////
 
 
     public void push(String eventName, String eventDescription, String cycle, int hour, int minute) {
         EventNode current = new EventNode(eventName, eventDescription, cycle, hour, minute);
         EventNode temp = head;
         EventNode holder;
+
+      
         if (head == null) {
-            head = current;
-        } else {
+            head = current;      
+        } 
+        else if(current.getTotalMin()<head.getTotalMin()){
+            current.setNext(head);
+            head=current;
+        }
+        else if(current.getTotalMin()>head.getTotalMin() && head.getNext()==null){
+            head.setNext(current);
+        }
+        else {
             while(temp != null) {
-                if(temp.getTotalMin() == current.getTotalMin()) {
-                    holder = temp;
-                    temp = current;
-                    temp.setNext(holder);
-                    break;
-                } else if(temp.getTotalMin() < current.getTotalMin()) {
-                    if(temp.getNext() == null) {
-                        temp.setNext(current);
-                        break;
-                    } else {
-                        temp = temp.getNext();
-                    }
-                } else if(temp.getTotalMin() > current.getTotalMin()) {
-                    holder = head;
-                    head = current;
-                    head.setNext(holder);
-                    break;
-                }
+                
+                if(temp.getNext()!=null && 
+                    temp.getNext().getTotalMin() >= current.getTotalMin()) {
+
+                    current.setNext(temp.getNext());
+                    temp.setNext(current);
+                    return;
+
+                temp=temp.getNext();
             }
         }
     }
