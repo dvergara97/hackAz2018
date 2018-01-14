@@ -34,7 +34,7 @@ public class InputEventNameAndDescription extends Activity implements View.OnCli
         toTimeButton.setOnClickListener(InputEventNameAndDescription.this);
     }
 
-    public void onClick(View view) {
+    public void     onClick(View view) {
         eventName = nameBox.getText().toString();
         eventDescription = descriptionBox.getText().toString();
         Intent toInputTime = new Intent(InputEventNameAndDescription.this, TimePicker.class);

@@ -26,4 +26,8 @@ public class AdminActivity extends AppCompatActivity implements View.OnClickList
         Intent eventIntent=new Intent(AdminActivity.this, InputEventNameAndDescription.class);
         startActivity(eventIntent);
     }
+
+    @Override
+    public void onBackPressed() {
+    }
 }
